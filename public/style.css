@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+  padding: 30px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #111827;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.week-buttons {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.week-buttons button {
+  margin: 0 6px;
+}
+
+.day-card {
+  background: white;
+  max-width: 700px;
+  margin: 24px auto;
+  border: 1px solid #d1d5db;
+  border-radius: 14px;
+  padding: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.day-card h3 {
+  background: #1f2937;
+  color: white;
+  margin: -20px -20px 20px -20px;
+  padding: 18px 20px;
+  border-radius: 14px 14px 0 0;
+  font-size: 28px;
+}
+
+.day-card h4 {
+  background: #e2e8f0;
+  color: #374151;
+  border-left: 6px solid #111827;
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin-top: 24px;
+  margin-bottom: 14px;
+}
+
+.day-card p {
+  margin: 6px 0;
+  color: #334155;
+}
+
+.workout-entry {
+  border-left: 4px solid #1f2937;
+  padding: 14px;
+  margin: 14px 0;
+  background: #f8fafc;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.workout-entry p {
+  font-size: 16px;
+  margin: 6px 0;
+}
+
+.workout-entry strong {
+  font-size: 16px;
+  color: #111827;
+  display: inline;
+  margin-right: 6px;
+}
+
+.notes-box {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background: white;
+  color: #334155;
+}
+
+.workout-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  margin-bottom: 24px;
+}
+
+.workout-actions button {
+  padding: 7px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.workout-form {
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 15px;
+}
+
+.workout-form select,
+.workout-form input,
+.workout-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px;
+  font-size: 18px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+
+.workout-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.workout-form button {
+  width: 100%;
+}
+
+.delete-btn {
+  margin-top: 6px;
+}
